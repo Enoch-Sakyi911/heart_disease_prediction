@@ -71,7 +71,7 @@ with st.sidebar:
 # -------------------------------------------------
 # 4. MAIN DASHBOARD - Tabs (Industry Standard)
 # -------------------------------------------------
-st.title("📊 Heart Disease Prediction Dashboard")
+st.title("🫀 Heart Disease Prediction Dashboard")
 st.caption("Upload a CSV file for batch predictions, or manually enter patient data below.")
 
 # Create Tabs
@@ -204,7 +204,7 @@ with tab2:
                     
                     # 1. Show Summary Metrics
                     st.divider()
-                    st.subheader("📊 Prediction Summary")
+                    st.subheader("🫀 Prediction Summary")
                     
                     total_patients = len(df_results)
                     high_risk_count = int(sum(predictions == 1))
